@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="巴黎Major 挑战者组：FaZe 16-14拿下首胜"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="5月8日，BLAST巴黎Major2023挑战者组迎来了首轮比赛的较量，本场比赛由FaZe迎战Monte，最终在10-14落后..."
+        android:textColor="#616161"/>
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2023-05-09 08:00"
+        android:layout_marginTop="10dp"
+        android:textColor="#AAAAAA"/>
+
+</LinearLayout>
