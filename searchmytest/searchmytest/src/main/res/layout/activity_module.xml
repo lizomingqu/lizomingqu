@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModuleActivity">
+
+    <EditText
+        android:id="@+id/ed_test"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/ed_test"
+        android:layout_marginLeft="20dp"
+        android:text="yrlo"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:hint="请输入想获取的照片"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_view"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/ed_test"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ed_test"
+        android:layout_alignEnd="@+id/ed_test"
+        android:text="搜索" />
+
+</RelativeLayout>

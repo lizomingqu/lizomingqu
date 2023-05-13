@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/ll_test"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一站式筛选"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+     />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="来自："/>
+        <TextView
+            android:id="@+id/tv_superChapterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="广场Tab"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发布事件："/>
+        <TextView
+            android:id="@+id/tv_niceDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2023-04-24 13:22"/>
+    </LinearLayout>
+
+</LinearLayout>
